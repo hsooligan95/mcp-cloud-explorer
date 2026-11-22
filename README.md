@@ -18,9 +18,9 @@ cloud accounts, no credentials, no network calls), so it is safe to run,
 demo, and test anywhere. The data is mock; only the tool design is real.
 
 > Formerly `mcp-aws-explorer`: the AWS-only name undersold the design.
-> The tools were never AWS-shaped — the datasets are. (The code, package,
-> and docs have been renamed to match; the GitHub repository rename is
-> following — until it lands, this repo still answers to the old name.)
+> The tools were never AWS-shaped — the datasets are. The code, package,
+> docs, and GitHub repository have all been renamed to match, and the old
+> repository URL now redirects here.
 
 ## What this demonstrates
 
