@@ -1,12 +1,12 @@
 ---
 mode: agent
-description: Review the current diff against mcp-aws-explorer's invariants
+description: Review the current diff against mcp-cloud-explorer's invariants
 ---
 
 Review my current diff against this repo's invariants:
 
 - Tools are READ-ONLY by design; never add a mutating tool or any code path that writes anywhere.
-- The mock dataset is the only data source: no AWS SDK calls, no network, no credentials.
+- The mock dataset is the only data source: no cloud SDK calls, no network, no credentials.
 - The tool surface (names, schemas, output shapes) must stay identical if the data module is ever swapped for real SDK calls.
 - Tool inputs are Zod-validated; failures return explicit structured error results rather than throwing across the wire.
 

@@ -1,6 +1,6 @@
 ---
 mode: agent
-description: Explain how a named module in mcp-aws-explorer works
+description: Explain how a named module in mcp-cloud-explorer works
 ---
 
 Explain how the module I name works:
